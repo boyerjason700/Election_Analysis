@@ -1,13 +1,19 @@
 # Election_Analysis
 
 ## Overview of Election Audit
-A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
+A Colorado Board of Elections employee, Tom who has given you the following tasks to complete the election audit of a recent local congressional election.
 
 1. Calculate the total number of votes cast.
 2. Get a complete list of candidates who recieved votes.
 3. Calculate the total number of votes each candidate recieved.
 4. Calculate the percentage of votes each candidate won.
 5. Determine the winner of the election based on popular vote.
+
+Additionally, the election commission has requested some additional data to complete the audit.
+
+1. The voter turnout for each county.
+2. The percentage of votes from each county out of the total count.
+3. The county with the highest turnout.
 
 ## Resources
 - Data Source: election_results.csv
@@ -33,6 +39,5 @@ The analysis of the election show that:
   
  ## Election-Audit Summary
  - This script can be used for future elections as is if the data imported is in the same format and data type.  Additional information can be obtained with modification to the code such as a specific county breakdown showing which canadiate was more favored in each county.  
- - Likewise, it can be used with slight modification to include additional data columns to provide a more detailed breakdown of the voting result.  For instance, collecting further demographics with each ballot(age, gender, party affiliation, etc.) would result in the ability to give a more detailed look into which of the groups favored one canadiate or the other.
+ - Likewise, it can be used with slight modification to accomidate additional data columns to provide a more detailed breakdown of the voting result.  For instance, collecting further demographics with each ballot (age, gender, party affiliation, etc.) would result in the ability to give a more detailed look into which candidate held more favor between the different demographics.
  
- ## Challenge Summary
