@@ -1,7 +1,7 @@
 # Election_Analysis
 
 ## Overview of Election Audit
-A Colorado Board of Elections employee, Tom who has given you the following tasks to complete the election audit of a recent local congressional election.
+A Colorado Board of Elections employee, Tom has given you the following tasks to complete the election audit of a recent local congressional election.  Along with some help from Tom's manager, Seth, we will find the following to produce the results of the audit.
 
 1. Calculate the total number of votes cast.
 2. Get a complete list of candidates who recieved votes.
