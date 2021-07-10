@@ -16,7 +16,7 @@ Additionally, the election commission has requested some additional data to comp
 3. The county with the highest turnout.
 
 ## Resources
-- Data Source: election_results.csv
+- Data Source: [election_results.csv](https://github.com/boyerjason700/Election_Analysis/blob/main/Resources/election_results.csv)
 - Software: 
     - [Python 3.6.1](https://www.python.org/)
     - [Visual Studio Code, 1.38.1](https://visualstudio.microsoft.com/vs/)
