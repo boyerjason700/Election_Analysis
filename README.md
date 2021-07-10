@@ -38,6 +38,6 @@ The analysis of the election show that:
   - Diana DeGatte, who received 73.8% of the vote and 272,892 number of votes.
   
  ## Election-Audit Summary
- - This script can be used for future elections as is if the data imported is in the same format and data type.  Additional information can be obtained with modification to the code such as a specific county breakdown showing which canadiate was more favored in each county.  
- - Likewise, it can be used with slight modification to accomidate additional data columns to provide a more detailed breakdown of the voting result.  For instance, collecting further demographics with each ballot (age, gender, party affiliation, etc.) would result in the ability to give a more detailed look into which candidate held more favor between the different demographics.
+ - This script can be used for future elections as is if the data imported is in the same format and data type.  Additional information can be obtained with modification to the code such as a specific county breakdown showing which candidate was more favored in each county.  
+ - Likewise, it can be used with slight modification to accommodate additional data columns to provide a more detailed breakdown of the voting result.  For instance, collecting further demographics with each ballot (age, gender, party affiliation, etc.) would result in the ability to give a more detailed look into which candidate held more favor between the different demographics.
  
