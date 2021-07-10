@@ -13,11 +13,11 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 - Data Source: election_results.csv
 - Software: Python 3.6.1, Vsual Studio Code, 1.38.1
 
-## Election Audit Results
+## Election-Audit Results
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
 ### County Results
-- The county were:
+- The county results were:
   - Jefferson county cast 10.5% of the vote and 38,855 number of votes.
   - Denver county cast 82.8% of the vote and 306,055 number of votes.
   - Arapahoe county cast 6.7% of the vote and 24,801 number of votes.
@@ -31,6 +31,7 @@ The analysis of the election show that:
 - The winnner of the election was:
   - Diana DeGatte, who recieved 73.8% of the vote and 272,892 number of votes.
   
- ## Challenge Overview
+ ## Election-Audit Summary
+ This script can be used for future elections as is if the data imported is in the same format and data type.  Additional information can be obtained with modification to the code such as a specif county breakdown showing which county favored which canadiate.  Likewise, it can be used with slight modification to include additional data columns to provide a more detailed breakdown of the voting result.  For instance, collecting further demographics with each ballot(age, gender, party affiliation, etc.) would result in the ability to give a more detailed look into which of the groups favored one canadiate or the other.
  
  ## Challenge Summary
