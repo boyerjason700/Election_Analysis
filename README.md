@@ -1,6 +1,6 @@
 # Election_Analysis
 
-## Project Overview
+## Overview of Election Audit
 A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
 
 1. Calculate the total number of votes cast.
@@ -13,13 +13,17 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 - Data Source: election_results.csv
 - Software: Python 3.6.1, Vsual Studio Code, 1.38.1
 
-## Summary
+## Election Audit Results
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
-- The candidates were:
-  - Charles Casper Stockham
-  - Diana DeGatte
-  - Raymon Anthony Doane
+### County Results
+- The county were:
+  - Jefferson county cast 10.5% of the vote and 38,855 number of votes.
+  - Denver county cast 82.8% of the vote and 306,055 number of votes.
+  - Arapahoe county cast 6.7% of the vote and 24,801 number of votes.
+- The county with the largest number of votes was:
+  - Denver county, who cast 82.8% of the vote and 306,055 number of votes.
+### Candidate Results
 - The candidate results were:
   - Charles Casper Stockham recieved 23.0% of the vote and 85,213 number of votes.
   - Diana DeGatte recieved 73.8% of the vote and 272,892 number of votes.
