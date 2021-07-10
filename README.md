@@ -17,7 +17,9 @@ Additionally, the election commission has requested some additional data to comp
 
 ## Resources
 - Data Source: election_results.csv
-- Software: Python 3.6.1, Visual Studio Code, 1.38.1
+- Software: 
+    - [Python 3.6.1] (https://www.python.org/)
+    - [Visual Studio Code, 1.38.1] (https://visualstudio.microsoft.com/vs/)
 
 ## Election-Audit Results
 The analysis of the election show that:
