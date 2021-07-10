@@ -6,7 +6,7 @@ import csv
 import os
 
 # Add a variable to load a file from a path.
-file_to_load = os.path.join("..", "Resources", "election_results.csv")
+file_to_load = os.path.join("Resources", "election_results.csv")
 # Add a variable to save the file to a path.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
@@ -19,7 +19,7 @@ candidate_votes = {}
 
 # 1: Create a county list and county votes dictionary.
 county_options = []
-county_votes ={}
+county_votes = {}
 
 # Track the winning candidate, vote count and percentage
 winning_candidate = ""
@@ -92,16 +92,20 @@ with open(file_to_save, "w") as txt_file:
     txt_file.write(election_results)
 
     # 6a: Write a for loop to get the county from the county dictionary.
+    for candidate_name in county_votes:
 
         # 6b: Retrieve the county vote count.
-
+        cvotes = county_votes.get(candidate_name)
+        
         # 6c: Calculate the percentage of votes for the county.
-
+        cvote_percentage = float(cvotes) / float(total_votes) * 100
+        county_results = (
+            f"{candidate_name}: {cvote_percentage:.1f}% ({cvotes:,})\n")
 
          # 6d: Print the county results to the terminal.
-
+        print(county_results)
          # 6e: Save the county votes to a text file.
-
+        txt_file.write(county_results)
          # 6f: Write an if statement to determine the winning county and get its vote count.
 
 
